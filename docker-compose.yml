@@ -1,0 +1,6 @@
+services:
+
+  nginx:
+    build:
+      context: .
+      dockerfile: lagoon/nginx.dockerfile
