@@ -5,4 +5,4 @@ services:
       context: .
       dockerfile: lagoon/nginx.dockerfile
     labels:
-      lagoon.type: none
+      lagoon.type: nginx
