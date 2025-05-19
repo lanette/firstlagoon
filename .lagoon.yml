@@ -4,6 +4,6 @@ project: lanette-first
 
 routes:
   autogenerate:
-    enabled: false
+    enabled: true
     allowPullrequests: true
-    
+  insecure: Redirect
