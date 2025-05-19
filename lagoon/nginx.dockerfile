@@ -1,7 +1,8 @@
 FROM uselagoon/nginx:latest
+COPY lagoon/app/app.conf /etc/nginx/conf.d/app.conf
 
-COPY public /app/public
+COPY . /app
 
 # Define where the Root is located
 
-ENV WEBROOT=public
+ ENV WEBROOT=public
